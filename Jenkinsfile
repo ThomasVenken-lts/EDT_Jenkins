@@ -4,7 +4,7 @@ pipeline {
         stage('Git pull & exec script') {
             steps {
                 echo 'executing script'
-				./hello_world.sh
+				sh './hello_world.sh'
             }
         }
     }
