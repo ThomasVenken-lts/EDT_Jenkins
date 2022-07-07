@@ -1,5 +1,5 @@
 pipeline {
-    agent Built-In 
+    agent any 
     stages {
         stage('Git pull & exec script') {
             steps {
